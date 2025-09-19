@@ -57,7 +57,7 @@ public class CategoriaController {
         CategoriaSalida categoria = categoriaService.crear(categoriaGuardar);
         return ResponseEntity.ok(categoria);
     }
-@PostMapping("/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<CategoriaSalida> editar(@PathVariable Integer id, @RequestBody CategoriaModificar categoriaModificar){
         CategoriaSalida categoria = categoriaService.editar(categoriaModificar);
         return ResponseEntity.ok(categoria);
