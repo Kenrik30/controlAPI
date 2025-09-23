@@ -1,6 +1,7 @@
 package org.controlUniversitario.interfaces;
 
 import org.controlUniversitario.dtos.proveedor.ProveedorGuardar;
+import org.controlUniversitario.dtos.proveedor.ProveedorModificar;
 import org.controlUniversitario.dtos.proveedor.ProveedorSalida;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -17,7 +18,7 @@ public interface IProveedorService {
 
     ProveedorSalida crear(ProveedorGuardar proveedorGuardar);
 
-    ProveedorSalida editar(ProveedorGuardar proveedorGuardar);
+    ProveedorSalida editar(ProveedorModificar proveedorModificar);
 
     void eliminarPorId(Integer id);
 
