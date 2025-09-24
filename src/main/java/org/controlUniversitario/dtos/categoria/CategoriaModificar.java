@@ -1,4 +1,4 @@
-package org.controlUniversitario.categoria;
+package org.controlUniversitario.dtos.categoria;
 
 
 import lombok.Getter;

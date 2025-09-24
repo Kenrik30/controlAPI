@@ -1,8 +1,8 @@
 package org.controlUniversitario.controladores;
 
-import org.controlUniversitario.categoria.CategoriaGuardar;
-import org.controlUniversitario.categoria.CategoriaModificar;
-import org.controlUniversitario.categoria.CategoriaSalida;
+import org.controlUniversitario.dtos.categoria.CategoriaGuardar;
+import org.controlUniversitario.dtos.categoria.CategoriaModificar;
+import org.controlUniversitario.dtos.categoria.CategoriaSalida;
 import org.controlUniversitario.interfaces.ICategoriaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

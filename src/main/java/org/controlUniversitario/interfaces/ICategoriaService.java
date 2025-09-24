@@ -1,8 +1,8 @@
 package org.controlUniversitario.interfaces;
 
-import org.controlUniversitario.categoria.CategoriaGuardar;
-import org.controlUniversitario.categoria.CategoriaModificar;
-import org.controlUniversitario.categoria.CategoriaSalida;
+import org.controlUniversitario.dtos.categoria.CategoriaGuardar;
+import org.controlUniversitario.dtos.categoria.CategoriaModificar;
+import org.controlUniversitario.dtos.categoria.CategoriaSalida;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
