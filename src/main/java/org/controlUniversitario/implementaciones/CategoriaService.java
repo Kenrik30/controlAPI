@@ -3,7 +3,7 @@ package org.controlUniversitario.implementaciones;
 import org.controlUniversitario.dtos.categoria.CategoriaGuardar;
 import org.controlUniversitario.dtos.categoria.CategoriaModificar;
 import org.controlUniversitario.dtos.categoria.CategoriaSalida;
-import org.controlUniversitario.Categoria;
+import org.controlUniversitario.modelos.Categoria;
 import org.controlUniversitario.repositorios.ICategoriaRepository;
 import org.controlUniversitario.interfaces.ICategoriaService;
 import org.modelmapper.ModelMapper;

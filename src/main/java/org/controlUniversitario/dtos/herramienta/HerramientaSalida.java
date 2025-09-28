@@ -16,6 +16,4 @@ public class HerramientaSalida implements Serializable {
     private String marca;
     private  String estado;
     private CategoriaSalida salida;
-
-
 }

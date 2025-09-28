@@ -1,9 +1,8 @@
-package org.controlUniversitario;
+package org.controlUniversitario.modelos;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import org.controlUniversitario.modelos.Herramienta;
 
 @Getter
 @Setter
