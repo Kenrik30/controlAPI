@@ -21,7 +21,7 @@ public interface IHerramientaService {
 
     HerramientaSalida editar(HerramientaModificar herramientaModificar);
 
-    HerramientaSalida cambiarCondicion(HerramientaCambiarEstado herramientaCambiarEstado);
+    HerramientaSalida cambiarEstado(HerramientaCambiarEstado herramientaCambiarEstado);
 
     void eliminarPorId(Integer id);
 }

@@ -13,6 +13,6 @@ public class HerramientaModificar implements Serializable {
     private String nombre;
     private String descripcion;
     private String marca;
-    private  String condicion;
+    private  String estado;
     private Integer categoriaId;
 }
