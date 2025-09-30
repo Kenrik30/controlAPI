@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 @Entity
@@ -18,8 +20,7 @@ public class Categoria {
     private String nombre;
 
     //relacion con otra entidad del proyecto
-    @ManyToOne
-    @JoinColumn(name = "herramienta_id")
-private Herramienta herramienta;
+    @OneToMany(mappedBy = "categoria")
+    private List<Herramienta> herramienta;
 
 }

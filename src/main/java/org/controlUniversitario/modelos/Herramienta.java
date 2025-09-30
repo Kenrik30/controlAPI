@@ -31,25 +31,15 @@ public class Herramienta {
     @Enumerated(EnumType.STRING)
     private Status estado;
 
-    @OneToMany(mappedBy = "herramienta" )
-private List<Categoria> categorias;
+    @ManyToOne
+    @JoinColumn(name = "categoria_id" )
+private Categoria categoria;
 
     public Status getEstado() {
         return estado;
     }
 
-    public void setEstado(Status status) {
-
-    }
-
-    public void setId(Object o) {
-
-    }
-
     public static enum Status {
         BUENESTADO, INSERVIBLE, MANTENIMIENTO
     }
-
-
-
 }
